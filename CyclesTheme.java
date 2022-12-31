@@ -98,7 +98,7 @@ https://www.baeldung.com/java-printstream-printf )
 */
         System.out.println("\n\n4. Вывод чисел на консоль в несколько строк\n");
         counter = 0;
-        for (i = 1; i < 24; i+=2) {
+        for (i = 1; i < 24; i += 2) {
             System.out.printf("%4d", i);
             counter++;
             if (counter % 5 == 0) {
@@ -188,11 +188,11 @@ https://www.baeldung.com/java-printstream-printf )
         char charVal;
 
         System.out.printf("%15s %15s %n", "Dec", "Char");
-        for (i = 1; i < 48; i+=2) {
+        for (i = 1; i < 48; i += 2) {
             charVal = (char) i;
             System.out.printf("%15d %15s %n", i, charVal);
         }
-        for (i = 98; i < 123; i+=2) {
+        for (i = 98; i < 123; i += 2) {
             charVal = (char) i;
             System.out.printf("%15d %15s %n", i, charVal);
         }
