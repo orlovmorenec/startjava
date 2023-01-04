@@ -25,5 +25,15 @@ public class HomeWork {
         for (int i = 1; i < 15; i++) {
             System.out.print(number * i + " ");
         }
+/*
+Необходимо вывести на консоль такую последовательность чисел:
+1 2 4 8 16 32 64 128 256 512
+ */
+        System.out.println("\nЗадача № 3\n");
+        number = 1;
+        while (number < 512) {
+            System.out.print(number + " ");
+            number*=2;
+        }
     }
 }
