@@ -35,5 +35,14 @@ public class HomeWork {
             System.out.print(number + " ");
             number*=2;
         }
+/*
+Необходимо вывести числа в интервале от [1 до 100] кратные 5
+ */
+        System.out.println("\nЗадача №3\n");
+        for (int i = 1;i <= 100;i++) {
+            if (i % 5 == 0) {
+                System.out.print(i + " ");
+            }
+        }
     }
 }
